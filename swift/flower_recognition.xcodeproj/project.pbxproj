@@ -13,6 +13,7 @@
 		2850D872244AD9AF00142757 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2850D870244AD9AF00142757 /* Main.storyboard */; };
 		2850D874244AD9AF00142757 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2850D873244AD9AF00142757 /* Assets.xcassets */; };
 		2850D877244AD9AF00142757 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2850D875244AD9AF00142757 /* LaunchScreen.storyboard */; };
+		2850D885244B070900142757 /* FlowerClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2850D884244B070900142757 /* FlowerClassifier.mlmodel */; };
 		FD49D390AB496386EBF58070 /* Pods_flower_recognition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 774DCF0716BB33260D0FC060 /* Pods_flower_recognition.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		2850D873244AD9AF00142757 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2850D876244AD9AF00142757 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2850D878244AD9AF00142757 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2850D884244B070900142757 /* FlowerClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FlowerClassifier.mlmodel; sourceTree = "<group>"; };
 		774DCF0716BB33260D0FC060 /* Pods_flower_recognition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_flower_recognition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91E0F70AE5BCC8D1AC456D60 /* Pods-flower_recognition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flower_recognition.debug.xcconfig"; path = "Target Support Files/Pods-flower_recognition/Pods-flower_recognition.debug.xcconfig"; sourceTree = "<group>"; };
 		B7833A079E5659060120DCD6 /* Pods-flower_recognition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flower_recognition.release.xcconfig"; path = "Target Support Files/Pods-flower_recognition/Pods-flower_recognition.release.xcconfig"; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 		2850D869244AD9AF00142757 /* flower_recognition */ = {
 			isa = PBXGroup;
 			children = (
+				2850D884244B070900142757 /* FlowerClassifier.mlmodel */,
 				2850D86A244AD9AF00142757 /* AppDelegate.swift */,
 				2850D86C244AD9AF00142757 /* SceneDelegate.swift */,
 				2850D86E244AD9AF00142757 /* ViewController.swift */,
@@ -206,6 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2850D885244B070900142757 /* FlowerClassifier.mlmodel in Sources */,
 				2850D86F244AD9AF00142757 /* ViewController.swift in Sources */,
 				2850D86B244AD9AF00142757 /* AppDelegate.swift in Sources */,
 				2850D86D244AD9AF00142757 /* SceneDelegate.swift in Sources */,
