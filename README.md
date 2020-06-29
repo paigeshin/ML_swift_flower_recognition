@@ -2,6 +2,11 @@
 
 # How to make `pre-trained model` to `ML model`
 
+# Dropbox Resource for mlModel
+
+[Link](https://www.dropbox.com/home/swift/mlmodels/flowerclassifier)
+
+
 # Link
 https://www.notion.so/Advanced-ML-9c5b7c737db74d1da6c424c093b58198
 
